@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(httpuv)\n\nview <- paste0(\n  \"<html>\",\n  \"<head><title>docker</title></head>\",\n  \"<body><h1>docker it</h1></body>\",\n  \"</html>\"\n)\n\napp <- list(\n  call = function(req){\n    list(\n      status = 200L,\n      headers = list('Content-Type' = 'text/html'),\n      body = view\n    )\n  }\n)\n\nserver <- runServer(\"127.0.0.1\", 7700, app = app)",
+    "created" : 1488908008603.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1055866454",
+    "id" : "1B0947E8",
+    "lastKnownWriteTime" : 1488911745,
+    "last_content_update" : -2147483648,
+    "path" : "~/coding/git/httpuv-meets-whisker/hello_httpuv.R",
+    "project_path" : "hello_httpuv.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

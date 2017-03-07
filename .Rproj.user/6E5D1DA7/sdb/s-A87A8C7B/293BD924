@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(httpuv)\n\njson_response <- function(req){\n  data <- list(\n    api_version = \"0.0.1\",\n    values = 1:10,\n    message = \"hi folks\"\n  )\n  jsonlite::toJSON(data, auto_unbox = TRUE)\n}\n\napp <- list(\n  call = function(req){\n    list(\n      status = 200L,\n      headers = list('Content-Type' = 'application/json'),\n      body = json_response(req)\n    )\n  }\n)\n\nserver <- runServer(\"127.0.0.1\", 7700, app = app)",
+    "created" : 1488908034605.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3309463587",
+    "id" : "293BD924",
+    "lastKnownWriteTime" : 1486759244,
+    "last_content_update" : 1486759244,
+    "path" : "~/coding/git/httpuv-rest-api/httpuv_rest_api.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
