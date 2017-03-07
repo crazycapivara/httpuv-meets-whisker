@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "Rproj.user/\n",
+    "created" : 1488912875042.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3064060284",
+    "id" : "D80E2FD8",
+    "lastKnownWriteTime" : 1488912915,
+    "last_content_update" : -2147483648,
+    "path" : "~/coding/git/httpuv-meets-whisker/.gitignore",
+    "project_path" : ".gitignore",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "gitignore"
+}
